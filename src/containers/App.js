@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Header from '../common/Header';
-import HomePage from '../components/HomePage';
 import Routes from '../routes/routes';
 
 // The parent component renders the Header component and component(s) in the

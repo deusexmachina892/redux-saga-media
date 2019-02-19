@@ -1,5 +1,5 @@
 import initialState from './initialState';
-import * as types from '../constants/actionTypes';
+import * as types from '../actions/types';
 
 // Handles video related actions
 // The idea is to return an updated copy of the state depending on the action type.
