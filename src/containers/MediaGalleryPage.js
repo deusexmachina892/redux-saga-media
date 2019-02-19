@@ -16,4 +16,12 @@ class MediaGalleryPage extends Component {
   }
 }
 
+
+const mapStateToProps = ({ images, videos }) => ({
+    images: images[0],
+    selectedImage: images.selectedImage,
+    videos: videos[0],
+    selectedVideo: videos.selectedVideo
+  });
+  
 export default MediaGalleryPage;
